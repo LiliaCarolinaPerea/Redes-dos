@@ -95,10 +95,10 @@ La dirección 10.10.10.0 se encuentra dentro del rango de direcciones reservadas
 ## 7. [Capacidad del canal](#) ✔
 |Servidor|Ping/ms|Down/MB|Up/MB|
 |--|:--:|--:|--:|
-|[speed test][1]|39|96.4|69.2|
-|[Netflix][2]|14|78|67|
-|[Claro][3]|13|74|31|
-|[nperf][4]|6.7|93.6|54.98|
+|[speed test][1]|29|5.26|10.70|
+|[Netflix][2]|10|8.7|9.9|
+|[Claro][3]|23|7.8|10.6|
+|[nperf][4]|67.60|10.42|10.50|
 
 >Nota: Para calcular el retardo de la red, usaremos el protocolo HTTP via servicio WEB.
 
@@ -106,18 +106,18 @@ La dirección 10.10.10.0 se encuentra dentro del rango de direcciones reservadas
 ## 8. [Distancia desde el host](#) ✔
 |Servidor|Ping/ms|Numero de Saltos|
 |--|:--:|--:|
-|google.com|14|10|
-|GMail.com|15|9|
-|YouTube.com|14|10|
-|dns.google|15|9|
-|aws.amazon.com|154|17|
-|portal.azure.com|13|11|
-|login.live.com|88|22|
-|Facebook.com|120|11|
-|c.ns.WhatsApp.net|151|12|
-|claro.com.co|151|12|
-|platzi.com|122|11|
-|rappi.com.co|184|30|
+|google.com|23|9|
+|GMail.com|26|9|
+|YouTube.com|16|9|
+|dns.google|27|10|
+|aws.amazon.com|27|12|
+|portal.azure.com|39|11|
+|login.live.com|129|18|
+|Facebook.com|94|18|
+|c.ns.WhatsApp.net|93|15|
+|claro.com.co|135|30|
+|platzi.com|39|10|
+|rappi.com.co|160|30|
 
 >Nota: Para calcular el retardo de la red, usaremos el comando ICMP/[tracert][13].
 
@@ -130,6 +130,7 @@ La dirección 10.10.10.0 se encuentra dentro del rango de direcciones reservadas
 
 ## 10. [Preguntas de conocimiento](#) ✔
 1. ¿Cuál es el retardo esperado para tu red según la tecnología contratada?
+   
 1. ¿Coincide el retardo medido con el esperado para tu red según la tecnología contratada? ¿Por qué?
 1. ¿Por qué varia la capacidad del canal en las distintas pruebas realizadas?
 1. ¿Cuál de los servicios DNS es mejor para configurar mi LAN?
