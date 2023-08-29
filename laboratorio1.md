@@ -86,7 +86,7 @@ La dirección 10.10.10.0 se encuentra dentro del rango de direcciones reservadas
 |DNS Cloudflare|1.1.1.1|29ms|
 |OpenDNS|208.67.222.222|69ms|
 |Alternate DNS|76.76.19.19|18ms|
-|DNS Quad9|9.9.9.9||27ms|
+|DNS Quad9|9.9.9.9|27ms|
 |AdGuard DNS|94.140.14.14|79ms|
 
 >Nota: Para calcular el retardo de la red, usaremos el protocolo ICMP/[ping][12] con al menos 10 paquetes.
