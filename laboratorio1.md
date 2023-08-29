@@ -1,5 +1,6 @@
 2. 
 a). ¿Cuál es la dirección de red y de broadcast de un host que tiene una ip 192.168?10.10/30?
+
 R/ la dirección de red y del broadcast de un host que tiene una ip 192.168.10.10/30 son los siguientes:
 Dirección de red: 192.168.10.8
 Dirección de broadcast: 192.168.10.11
@@ -34,22 +35,15 @@ Para aclararles un poco lo de las clases:
 La dirección 10.10.10.0 se encuentra dentro del rango de direcciones reservadas para la Clase A (1.0.0.0 a 126.0.0.0). El "/24" indica que los primeros 24 bits de la dirección IP se utilizan para la porción de red, y los últimos 8 bits se utilizan para la porción de host. Además, la dirección 10.10.10.0/24 se encuentra en el rango de direcciones IP privadas. Las direcciones IP privadas son direcciones que se pueden utilizar en redes internas, y no se enrutan en Internet público. Esto significa que podemos usar la dirección IP 10.10.10.0/24 en una red privada sin preocuparte por conflictos con direcciones públicas en Internet. Por lo tanto la dirección IP 10.10.10.0/24 pertenece a la Clase A de direcciones IP y es una dirección IP privada
 
 
-
-
-
-
-
-
-
 ## 3. [Caracterización de los adaptadores](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
 |Número de adaptadores Físicos|-->|3|
 |Número de adaptadores Virtuales|-->|1|
 |Tipo de Adaptador principal|-->|Wi-fi|
-|Fabricante del Adaptador principal|-->|Liteon Technology Corporation|
-|Código MAC del fabricante|-->|3C-A0-67|
-|MAC|-->|3C-A0-67-E8-D8-77|
+|Fabricante del Adaptador principal|-->|Realtek PCIe GbE Family Controller|
+|Código MAC del fabricante|-->|6C-02-E0|
+|MAC|-->|6C-02-E0-0D-2E-B1|
 
 >Nota: Para obtener los parámetros de la red, usaremos los comandos [ipconfig][10], [ifconfig][8], [getmac][9].
 
@@ -57,14 +51,14 @@ La dirección 10.10.10.0 se encuentra dentro del rango de direcciones reservadas
 ## 4. [Caracterización de la red](#) ✔
 |Parámetro|Valor|
 |--|--:|
-|__Subnet__|192.168.254.0/24|
-|IPv4|192.168.254.104|
+|__Subnet__|192.168.101.0/24|
+|IPv4|192.168.101.74|
 |Subnet Mask decimal|24|
 |Subnet Mask octetos|255.255.255.0|
-|Número de direcciones de Host|254|
-|Rango de direcciones de Host|192.168.254.1-254|
-|IP Broadcast|192.168.254.255|
-|Server DHCP|192.168.254.254|
+|Número de direcciones de Host|101|
+|Rango de direcciones de Host|192.168.101.1-101|
+|IP Broadcast|192.168.101.255|
+|Server DHCP|192.168.101.254|
 |Server DNS|8.8.8.8|
 
 >Nota: Para obtener los parámetros de la red, usaremos el comando [ipconfig][10] o [ifconfig][8].
